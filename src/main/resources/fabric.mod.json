@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "craberos_bundle",
+	"version": "${version}",
+	"name": "Craberos' Bundle",
+	"description": "Mod with a couple of things of our interest.",
+	"authors": [
+		"Quendo",
+		"_Doh_ValeX"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/QuendoDev/Craberos-Bundle"
+	},
+	"license": "MIT",
+	"icon": "assets/craberos_bundle/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "com.quendo.craberos_bundle.CraberosBundle"
+		],
+		"fabric-datagen": [
+          "com.quendo.craberos_bundle.CraberosBundleDataGenerator"
+		],
+		"client": [
+		  "com.quendo.craberos_bundle.CraberosBundleClient"
+		]
+	},
+	"mixins": [
+		"craberos_bundle.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

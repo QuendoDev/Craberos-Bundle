@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.quendo.craberos_bundle.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+      "ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
