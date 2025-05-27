@@ -1,5 +1,6 @@
 package com.quendo.craberos_bundle;
 
+import com.quendo.craberos_bundle.block.ModBlocks;
 import com.quendo.craberos_bundle.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,6 @@ public class CraberosBundle implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerBlocks();
 	}
 }

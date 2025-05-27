@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+        "model": "craberos_bundle:block/raw_rubber_block"
+    }
+  }
+}
