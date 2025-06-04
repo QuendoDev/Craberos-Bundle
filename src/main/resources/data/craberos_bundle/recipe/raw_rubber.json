@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "craberos_bundle:raw_rubber_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "craberos_bundle:raw_rubber"
+  }
+}
