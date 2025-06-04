@@ -1,5 +1,9 @@
 {
   "item.craberos_bundle.raw_rubber": "Raw Rubber",
+  "item.craberos_bundle.rubber": "Rubber",
 
-  "block.craberos_bundle.raw_rubber_block": "Raw Rubber Block"
+  "block.craberos_bundle.raw_rubber_block": "Raw Rubber Block",
+
+  "itemgroup.craberos_bundle.items": "Craberos Bundle Items",
+  "itemgroup.craberos_bundle.blocks": "Craberos Bundle Blocks"
 }
