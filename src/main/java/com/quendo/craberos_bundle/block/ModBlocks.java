@@ -24,6 +24,13 @@ public class ModBlocks {
         return Registry.register(Registries.BLOCK, Identifier.of(CraberosBundle.MOD_ID, name), block);
     }
 
+    //In AbstractBlock.Settings.create(), there is an .requiredTool() method that can be used to specify
+    // that a block requires a specific tool to be mined, such as a pickaxe or shovel.
+
+
+    // For ores or blocks that drop experience, new ExperienceDroppingBlockItem (UniformIntProvider.create(2, 5),
+    // AbstractBlock.Settings.create()) is used instead of BlockItem.
+
     private static void registerBlockItem(String name, Block block) {
         Registry.register(Registries.ITEM, Identifier.of(CraberosBundle.MOD_ID, name),
                 new BlockItem(block, new Item.Settings()));
@@ -31,9 +38,5 @@ public class ModBlocks {
 
     public static void registerBlocks() {
         CraberosBundle.LOGGER.info("Registering Mod Blocks for " + CraberosBundle.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(RAW_RUBBER_BLOCK);
-        });
     }
 }
