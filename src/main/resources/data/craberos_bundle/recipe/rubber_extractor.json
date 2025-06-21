@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:copper_ingot"
+    },
+    "Y": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    " X ",
+    "Y#Y",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "craberos_bundle:rubber_extractor"
+  }
+}

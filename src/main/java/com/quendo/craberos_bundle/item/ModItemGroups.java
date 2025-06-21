@@ -20,6 +20,8 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.RAW_RUBBER);
                         entries.add(ModItems.RUBBER);
+
+                        entries.add(ModItems.RUBBER_EXTRACTOR);
                     }).build());
 
     public static final ItemGroup CRABEROS_BUNDLE_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
